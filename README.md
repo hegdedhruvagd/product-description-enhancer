@@ -107,3 +107,7 @@ tests/                            unit and local adapter integration tests
 `.gitignore` excludes `.env`, virtual environments, Python/test caches, databases, and all `artifacts/` and `checkpoints/`. The trained adapter, tokenizer, and evaluation report remain on this machine and are intentionally not committed as generated model artifacts; clone users can reproduce them with the training command above. The JSONL data, source, tests, and workflow are included.
 
 The intended public repository is [hegdedhruvagd/product-description-enhancer](https://github.com/hegdedhruvagd/product-description-enhancer), on `main`. Review the staged file list before publishing, and never stage `.env`, `.venv`, caches, or `artifacts/`.
+
+## Evaluation evidence
+
+See [evaluation results](docs/evaluation-results.md) for the measured results, example outputs, limitations, and evaluation methodology.
